@@ -1,0 +1,28 @@
+
+
+.box1{
+    border:teal 5px solid;
+}
+
+#internal_ul{
+    background-color: tomato;
+}
+ol{
+    background-color:violet;
+}
+p[name="nik"]{
+    background-color:pink;
+}
+body{
+    background-color: darkcyan;
+}
+img{
+    border-radius: 5%;
+}
+video{
+    border-radius: 5%;
+}
+iframe{
+    border-radius: 5%;
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+.butn {
+    background-color: chocolate;
+    color: black;
+}
+
+.butn:hover {
+    background-color: blueviolet;
+    color: crimson;
+}
+
+.butn:active {
+    background-color:black;
+    color: white;
+}
+
+.butn:focus {
+    background-color: green;
+    color: honeydew;
+}
+
+.para::after {
+    content: " RED";
+    color: red;
+    font:bold;
+    font-size: 25px;
+}

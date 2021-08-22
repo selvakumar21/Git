@@ -1,0 +1,57 @@
+/* body {
+    background-color: black;
+}   
+
+header {
+    background-color: blue;
+    color: white;
+    font: bold;
+    font-size: 100px;
+}
+
+footer {
+    position: fixed; 
+    margin-left: 45%;
+    margin-top: 75%;
+    color: white;
+
+} */
+
+.btn {
+  background-color: black;
+  color: red;
+}
+
+.btn:focus {
+  background-color: white;
+  color: red;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  transition-property: background-color;
+}
+
+.parent {
+    width: 650px;
+    height: 650px;
+    border: 4px red solid;
+    padding: 10px;
+}
+
+.child {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    color: purple;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.child:focus {
+    background-color: green;
+    border-radius: 50%;
+    transform: translateY(400px);
+    color: purple;
+    font-size: 50px;
+    font-style: bold;
+    transition-duration: 5s;
+}

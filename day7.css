@@ -1,0 +1,25 @@
+div.static {
+  position: static;
+  border: 5px darkcyan solid;
+}
+
+div.relative {
+  position: relative;
+  height: 400px ; 
+  width: 200px ;
+  border: 5px darkcyan solid;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 90%;
+    border: 5px darkcyan solid;
+  }
+
+  div.absolute {
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    border: 5px darkcyan solid;
+  }
